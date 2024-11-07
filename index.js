@@ -9,14 +9,9 @@ document.getElementById('filmForm').addEventListener('submit', function(event) {
     let categories = document.querySelectorAll('input[name="category"]:checked');
     
     let selectedCategories = [];
-    // Usando um loop for para coletar todas as categorias selecionadas
+    // Usando um loop for padrão
     for (let i = 0; i < categories.length; i++) {
         selectedCategories.push(categories[i].value);
-    }
-
-    // Se a idade for entre 1 e 9, limita os filmes àqueles com ageRating igual a "Livre"
-    if (age >= 1 && age <= 9) {
-        selectedCategories = ['Livre'];  // Apenas filmes com classificação "Livre"
     }
 
     // Filtra os filmes pela categoria selecionada e pela idade
@@ -28,7 +23,7 @@ document.getElementById('filmForm').addEventListener('submit', function(event) {
     let movieResults = document.getElementById('movieResults');
     movieResults.innerHTML = '';
 
-    // Exibe os filmes usando um loop for
+    // Exibe os filmes usando um loop for padrão
     for (let i = 0; i < filteredMovies.length; i++) {
         let movie = filteredMovies[i];
         let movieDiv = document.createElement('div');

@@ -133,3 +133,12 @@ export const movies = [
         trailer: "https://www.youtube.com/embed/d96cjJhvlMA"
     }
 ];
+
+    {
+        title: "teste teste teste",
+        genre: "Aventura",
+        ageRating: livre,
+        synopsis: "Um grupo de desajustados intergalácticos se junta para salvar a galáxia de um poderoso vilão.",
+        trailer: "https://www.youtube.com/embed/d96cjJhvlMA"
+    }
+];

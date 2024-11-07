@@ -1,8 +1,8 @@
 export const movies = [
     {
-        title: "Toy Story 4",
+        title: "Toy Story 1",
         genre: "Animação",
-        ageRating: 10,
+        ageRating: livre,
         synopsis: "Woody e seus amigos embarcam em uma jornada com o novo brinquedo, Garfinho.",
         trailer: "https://www.youtube.com/embed/wmiIUN-7qhE"
     },
